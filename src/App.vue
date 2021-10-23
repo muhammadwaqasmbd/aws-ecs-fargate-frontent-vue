@@ -6,11 +6,7 @@
 
 <script>
 export default {
-  name: "app",
-  // data() {
-  //   this.$store.dispatch('login').then(() => this.$router.push('/page1'))
-  //       .catch(err => console.log(err))
-  // },
+  name: "app"
 };
 </script>
 

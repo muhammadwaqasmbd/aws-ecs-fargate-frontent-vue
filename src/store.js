@@ -27,9 +27,7 @@ export default new Vuex.Store({
 	    },
         logout({commit}){
 	        return new Promise((resolve, reject) => {
-                console.log("in logout")
 	            commit('logout')
-                //localStorage.removeItem("isAuthenticated");
 	            resolve("Logout Successfully")
 	        })
 	    },
